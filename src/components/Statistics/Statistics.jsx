@@ -1,9 +1,8 @@
-
-import ss from '../App/App.module.css'
 import PropTypes from 'prop-types';
+import s from './Statistics.modules.css'
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
-  <div className={ss.feedback}>
+  <div className={s.feedback}>
     <p>Good: {good}</p>
     <p>Neutral: {neutral}</p>
     <p>Bad: {bad}</p>
